@@ -167,28 +167,6 @@ function masterSwitch(serviceChoice, serviceData){
 //////////////////////////////////////////
 
 
-function B2(stdA, stdB) {
-  console.log("B2 called");
-  console.log("In B2 stdA: " + stdA);
-  if (stdA === "movie" && stdB === "terminator") {
-    console.log("SUCCESS!!!");
-  } else{
-    console.log("ALMOST!!! got to B2 but failed the condition");
-  }
-
-}
-/*
-function movie(serviceData) {
-  console.log("movie() called");
-  console.log("In movie() serviceData: " + serviceData);
-  if (serviceData === "terminator") {
-    console.log("SUCCESS!!!");
-  } else{
-    console.log("ALMOST!!! got to movie() but failed the condition");
-  }  
-}
-*/
-
 //////////////////////////////////////////
 //START MOVIE CODE BLOCK////////////////////
 //////////////////////////////////////////
@@ -198,8 +176,8 @@ function movie(serviceData){
 
 var serviceDataArray = [];
 console.log(serviceDataArray);
-serviceDataArray.push("test1");
-serviceDataArray.push('test2');
+serviceDataArray.push('nodeJsResevred1');
+serviceDataArray.push('nodeJsResevred1');
 console.log(serviceDataArray);
 Array.isArray(serviceDataArray);
 
