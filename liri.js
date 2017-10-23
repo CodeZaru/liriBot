@@ -1,149 +1,238 @@
-//Store dependencies in global variables
-var keys = require("./keys.js"); 
+// Load the NPM Package inquirer
 var inquirer = require("inquirer");
+//******************
+
+//Store dependencies in global variables
+
+var keys = require("./keys.js"); 
+
 var spotify = require("spotify");
-var request = require("request");/**From the OMDB exercise**/
+var request = require("request");
 var fs = require("fs");
 
-//Inform the user what to type
-//console.log("Please Type: spotify-song, movie-please, or instructions-please.");
 
-// Prompt the user to provide information.
-inquirer.prompt([
 
-{
-  type: "input",
-  name: "userInput",
-  message: "Please Type a Request: play-song, play-movie, or instructions-please."
+//******************
+
+
+
+
+var service;
+var serviceData;
+//var serviceDataArray = [];
+var movieTitle;
+var musicService;
+var massageLocation;
+
+var stdA;
+var stdB;
+
+
+/*function wrapInquire(){*/
+// Create a "Prompt" with a series of questions.
+
+inquirer
+.prompt([
+    // Here we create a basic text prompt.
+    {
+      type: "input",
+      message: "Hi good looking, What is your first name?",
+      name: "username"
+    },
+    // Here we give the user a list to choose from.
+    {
+      type: "list",
+      message: "Which service are you looking to enjoy?",
+      choices: ["movie", "massage", "music"],
+      name: "serviceChoice"
+    },
+    // Here we ask the user to confirm.
+    {
+      type: "input",
+      message: "Ahh, oui oui, a movie?  Type the title, and I'll retrieve it: ",
+      name: "movieTitle",
+      when: function(answers){
+        return answers.serviceChoice === "movie";
+      }
+    },
+    {
+      type: "input",
+      message: "Ahh, oui oui, a massage?  What city are you in now? ",
+      name: "massageLocation",
+      when: function(answers){
+        return answers.serviceChoice === "massage";
+      }
+    },
+    {
+      type: "input",
+      message: "La-La-La-La-La...",
+      name: "musicService",
+      when: function(answers){
+        return answers.serviceChoice === "music";
+      }
+    },
+    // Here we ask the user to confirm.
+    {
+      type: "confirm",
+      message: "Are you sure?",
+      name: "confirm",
+      default: true
+    }
+    ])
+.then(function(inquirerResponse) {
+   // If the inquirerResponse confirms, we displays the inquirerResponse's username and pokemon from the answers.
+   if (inquirerResponse.confirm) {
+
+    if (inquirerResponse.serviceChoice==='movie') {
+      serviceChoice = inquirerResponse.serviceChoice;
+      serviceData = inquirerResponse.movieTitle;
+    }
+    else if (inquirerResponse.serviceChoice==='massage') {
+      service = inquirerResponse.serviceChoice;
+      serviceData = inquirerResponse.massageLocation;
+    }
+    else if (inquirerResponse.serviceChoice==='music') {
+      serviceChoice = inquirerResponse.serviceChoice;
+      serviceData = "music keys";
+    }
+
+    var serviceChoice = inquirerResponse.serviceChoice;
+    var serviceData = inquirerResponse.movieTitle;
+    console.log("\nWelcome " + inquirerResponse.username);
+    console.log();
+    console.log("Your VIP " + inquirerResponse.serviceChoice + " service will be ready for you in a jiffy!\n");
+    console.log();
+    console.log("Spanish: uno segundo mas por favor!");
+    console.log();
+    console.log("Japanese: ato ichi byou dake no de, mo sukoshi omachi kudasai!");
+    console.log();
+    console.log(" m(_ _)m ");
+    console.log();
+    console.log("It will be worth your wait;)");
+    console.log();
+    console.log(" ^_^/` ");      
+
+//      B1(serviceChoice, serviceData);
+masterSwitch(serviceChoice, serviceData);
 }
-// After the prompt, store the user's response in a variable called movieTitle.
-]).then(function(liriRequest) {
+else {
+  console.log("\nThat's okay " + inquirerResponse.username + ", come again when you are more sure.\n");
+}
+});
 
- console.log(liriRequest.userInput);
+//B1("movie", "terminator", B2());
 
+//B1("movie", "terminator");
 
+//function B1(paramA, paramB, callback) {
+/*
+function B1(paramA, paramB) {
+  stdA=paramA;
+  console.log("In B1 stdA: " + stdA);
+  stdB=paramB;
+  console.log("In B1 stdB: " + stdB);
+  B2(stdA,stdB);
+}
+*/
 
-//process.argv[2] = the action specified by the user
-/*var userCommand = process.argv[2];*/
-//process.argv[3] = is the search parameter
-//var search = process.argv[3];
+//////////////////////////////////////////
+//START SWITCH CODE BLOCK////////////////////
+//////////////////////////////////////////
+function masterSwitch(serviceChoice, serviceData){
+  console.log("masterSwitch() called");
+  console.log("In masterSwitch() serviceChoice: " + serviceChoice);
+  console.log("In masterSwitch() serviceData: " + serviceData);
+  switch (serviceChoice) {
 
-
-
-//Like the Bank Exercise, created a switch to handle which action to execute
-//function masterController(){
-  switch (liriRequest.userInput) {
-
-    case "play-song":
-    spotifyNow();
+    case "movie":
+    console.log("You chose the VIP movie service!")
+    movie(serviceData);
     break;
 
-    case "play-movie":
-    movie();
+    case "massage":
+    console.log("You chose the VIP massage service!")    
+    massage(serviceChoice, serviceData);
     break;
 
-    case "instructions":
-    seeDirections();
+    case "music":
+    console.log("You chose the VIP music service!")
+    spotifyNow(serviceChoice, serviceData);
     break;
   }
-})
-
-
-//////////////////////////////////////////
-//START SPOTIFY CODE BLOCK////////////////////
-//////////////////////////////////////////
-
-function spotifyNow(){
-
-// Prompt the user to provide information.
-inquirer.prompt([
-
-{
-  type: "input",
-  name: "userInput",
-  message: "Ahh, you wanna listen to music?  Type the title, and I'll look for it.."
 }
 
-// After the prompt, store the user's response in a variable called movieTitle.
-]).then(function(songTitle) {
 
- console.log(songTitle.userInput);
+//////////////////////////////////////////
+//END SWITCH CODE BLOCK////////////////////
+//////////////////////////////////////////
 
- var searchMusic;
- if(songTitle === undefined) {
-  var songTitle = songTitle.userInput;
-  spotify.search({ type: 'track', query: songTitle }, function(err, data){
 
-    if(songTitle.userInput){
-      var data = data.tracks.items;
-      for(var i =0; i < data.length; i++){
+function B2(stdA, stdB) {
+  console.log("B2 called");
+  console.log("In B2 stdA: " + stdA);
+  if (stdA === "movie" && stdB === "terminator") {
+    console.log("SUCCESS!!!");
+  } else{
+    console.log("ALMOST!!! got to B2 but failed the condition");
+  }
 
-        console.log(data[i].name);
-        console.log(data[i].album.href); 
-        console.log(data[i].album.name); 
-        console.log(data[i].preview_url); 
-
-        for(var j =0; j < data[i].artists.length; j++){
-          console.log(data[i].artists[j].name); 
-        }
-      }
-    }else{
-      spotify.search({ type: 'track', query: "what's my age again"}, function(err, data){
-        var data = data.tracks.items;
-        console.log(data[0].name); 
-        console.log(data[0].album.href); 
-        console.log(data[0].album.name); 
-        console.log(data[0].preview_url); 
-        console.log(data[0].artists[0].name); 
-      })
-    }
-  })
-   // outputLog();
- }
-})
 }
-//////////////////////////////////////////
-//END SPOTIFY CODE BLOCK////////////////////
-//////////////////////////////////////////
-
+/*
+function movie(serviceData) {
+  console.log("movie() called");
+  console.log("In movie() serviceData: " + serviceData);
+  if (serviceData === "terminator") {
+    console.log("SUCCESS!!!");
+  } else{
+    console.log("ALMOST!!! got to movie() but failed the condition");
+  }  
+}
+*/
 
 //////////////////////////////////////////
 //START MOVIE CODE BLOCK////////////////////
 //////////////////////////////////////////
 
-function movie(){
-console.log("at the movie function now")
-// Prompt the user to provide information.
-inquirer.prompt([
+function movie(serviceData){
+  console.log("at the movie function now")
 
-{
-  type: "input",
-  name: "userInput",
-  message: "Ahh, you wanna see a movie?  Type the title, and I'll look for it.."
-}
+var serviceDataArray = [];
+console.log(serviceDataArray);
+serviceDataArray.push("test1");
+serviceDataArray.push('test2');
+console.log(serviceDataArray);
+Array.isArray(serviceDataArray);
 
-// After the prompt, store the user's response in a variable called movieTitle.
-]).then(function(movieTitle) {
+console.log("passed the serviceDataArray type test.");
 
- console.log(movieTitle.userInput);
+var str = serviceData.trim();
+//var str = "'"+serviceData.trim()+"'";
+var cServiceData = str.replace(" ", ",");
+//var cServiceData = str.replace(" ", "', '");
+console.log("cServiceData: " + cServiceData + typeof(cServiceData));
+console.log();
+serviceDataArray.push(cServiceData);
+Array.isArray(serviceDataArray);
+console.log();
+console.log("serviceDataArray[1]: " + serviceDataArray[1]);
 
- if(movieTitle === undefined){
+/*
+  if(serviceData === undefined){
 //    movieSearch = "mr+nobody";
 request("http://www.omdbapi.com/?t=mr+nobody+&y=&plot=short&apikey=40e9cece",function(error, response,body){
   console.log(body);
-
 })
 }  
 
 else{
-
+*/
 
 // Include the request npm package (Don't forget to run "npm install request" in this folder first!)
 //var request = require("request");
 
 // Store all of the arguments in an array
 //var nodeArgs = process.argv;
-var nodeArgs = movieTitle.userInput;
+var nodeArgs = serviceDataArray;
 // Create an empty variable for holding the movie name
 var movieName = "";
 
@@ -196,43 +285,10 @@ request(queryUrl, function(error, response, body) {
   }
 });
 
+//}
 }
-})
-}
+
+
 //////////////////////////////////////////
 //END MOVIE CODE BLOCK////////////////////
-//////////////////////////////////////////
-
-
-//////////////////////////////////////////
-//START SWITCH CODE BLOCK////////////////////
-//////////////////////////////////////////
-
-function seeDirections(){
-  console.log("Processing...");
-
-  fs.readFile("random.txt", "utf8", function(error,data){
-    if(error){
-      console.log("Here is the error: " + error);
-    }
-    else{
-      var dataArr = data.split(",");
-      userCommand = dataArr[0];
-      search = dataArr[1];
-
-      //if multiword search
-      for(i=2; i<data.Arr.length; i++){
-        search= search + "+" + dataArr[i];
-      }
-
-      masterController();
-    }
-  })
-}
-
-masterController();
-
-
-//////////////////////////////////////////
-//END SWITCH CODE BLOCK////////////////////
 //////////////////////////////////////////
