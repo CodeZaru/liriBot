@@ -5,8 +5,9 @@ var inquirer = require("inquirer");
 //Store dependencies in global variables
 
 var keys = require("./keys.js"); 
-
 var spotify = require("spotify");
+
+var inquirer = require("inquirer");
 var request = require("request");
 var fs = require("fs");
 
@@ -65,7 +66,7 @@ inquirer
     },
     {
       type: "input",
-      message: "La-La-La-La-La...",
+      message: "La-La-La-La-La...(hit return)",
       name: "musicService",
       when: function(answers){
         return answers.serviceChoice === "music";
@@ -151,12 +152,13 @@ function masterSwitch(serviceChoice, serviceData){
 
     case "massage":
     console.log("You chose the VIP massage service!")    
-    massage(serviceChoice, serviceData);
+//    massage(serviceData);
+    massage();
     break;
 
     case "music":
     console.log("You chose the VIP music service!")
-    spotifyNow(serviceChoice, serviceData);
+    spotifyNow(serviceData);
     break;
   }
 }
@@ -174,16 +176,16 @@ function masterSwitch(serviceChoice, serviceData){
 function movie(serviceData){
   console.log("at the movie function now")
 
-var serviceDataArray = [];
-console.log(serviceDataArray);
-serviceDataArray.push('nodeJsResevred1');
-serviceDataArray.push('nodeJsResevred1');
-console.log(serviceDataArray);
-Array.isArray(serviceDataArray);
+  var serviceDataArray = [];
+  console.log(serviceDataArray);
+  serviceDataArray.push('nodeJsResevred1');
+  serviceDataArray.push('nodeJsResevred1');
+  console.log(serviceDataArray);
+  Array.isArray(serviceDataArray);
 
-console.log("passed the serviceDataArray type test.");
+  console.log("passed the serviceDataArray type test.");
 
-var str = serviceData.trim();
+  var str = serviceData.trim();
 //var str = "'"+serviceData.trim()+"'";
 var cServiceData = str.replace(" ", ",");
 //var cServiceData = str.replace(" ", "', '");
@@ -194,8 +196,8 @@ Array.isArray(serviceDataArray);
 console.log();
 console.log("serviceDataArray[1]: " + serviceDataArray[1]);
 
-/*
-  if(serviceData === undefined){
+
+if(serviceDataArray === undefined){
 //    movieSearch = "mr+nobody";
 request("http://www.omdbapi.com/?t=mr+nobody+&y=&plot=short&apikey=40e9cece",function(error, response,body){
   console.log(body);
@@ -203,7 +205,7 @@ request("http://www.omdbapi.com/?t=mr+nobody+&y=&plot=short&apikey=40e9cece",fun
 }  
 
 else{
-*/
+
 
 // Include the request npm package (Don't forget to run "npm install request" in this folder first!)
 //var request = require("request");
@@ -258,15 +260,41 @@ request(queryUrl, function(error, response, body) {
     console.log("Language: " + JSON.parse(body).Language);
     console.log("Plot: " + JSON.parse(body).Plot);
     console.log("Actors & Actresses: " + JSON.parse(body).Actors);
-    console.log("Rotten Tomatoes Rating: " + JSON.parse(body).tomatoRating);
-    console.log("Rotten Tomatoes URL: " + JSON.parse(body).tomatoURL);
-  }
+    console.log("Rotten Tomatoes User Rating: " + JSON.parse(body).tomatoUserRating);
+   // console.log("Rotten Tomatoes URL: " + JSON.parse(body).tomatoURL);
+ }
 });
 
-//}
 }
-
+}
 
 //////////////////////////////////////////
 //END MOVIE CODE BLOCK////////////////////
+//////////////////////////////////////////
+
+//////////////////////////////////////////
+//START SPOTIFY CODE BLOCK////////////////////
+//////////////////////////////////////////
+
+function spotifyNow(serviceData){
+ 
+
+  }
+
+//////////////////////////////////////////
+//END SPOTIFY CODE BLOCK////////////////////
+//////////////////////////////////////////
+
+//////////////////////////////////////////
+//START MASSAGE CODE BLOCK////////////////////
+//////////////////////////////////////////
+function massage() {
+  console.log("****************************************************************")
+  console.log("Sorry honey, that service isn't digital")
+  console.log("But I'd recommend going to a really nice hotel spa & resort")
+  console.log("and request their relaxing massage package")
+  console.log("****************************************************************")
+}
+//////////////////////////////////////////
+//END MASSAGE CODE BLOCK////////////////////
 //////////////////////////////////////////
