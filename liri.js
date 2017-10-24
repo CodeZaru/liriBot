@@ -99,19 +99,19 @@ inquirer
 
    // var serviceChoice = inquirerResponse.serviceChoice;
    // var serviceData = inquirerResponse.movieTitle;
-    console.log("\nWelcome " + inquirerResponse.username);
-    console.log();
-    console.log("Your VIP " + inquirerResponse.serviceChoice + " service will be ready for you in a jiffy!\n");
-    console.log();
-    console.log("Spanish: un segundo mas por favor!");
-    console.log();
-    console.log("Japanese: mo sukoshi omachi kudasai!");
-    console.log();
-    console.log(" m(_ _)m ");
-    console.log();
-    console.log("It will be worth your wait;)");
-    console.log();
-    console.log(" ^_^/` ");      
+   console.log("\nWelcome " + inquirerResponse.username);
+   console.log();
+   console.log("Your VIP " + inquirerResponse.serviceChoice + " service will be ready for you in a jiffy!\n");
+   console.log();
+   console.log("Spanish: un segundo mas por favor!");
+   console.log();
+   console.log("Japanese: mo sukoshi omachi kudasai!");
+   console.log();
+   console.log(" m(_ _)m ");
+   console.log();
+   console.log("It will be worth your wait;)");
+   console.log();
+   console.log(" ^_^/` ");      
 
 //      B1(serviceChoice, serviceData);
 masterSwitch(serviceChoice, serviceData);
@@ -143,24 +143,24 @@ function masterSwitch(serviceChoice, serviceData){
 //  console.log("masterSwitch() called");
 //  console.log("In masterSwitch() serviceChoice: " + serviceChoice);
 //  console.log("In masterSwitch() serviceData: " + serviceData);
-  switch (serviceChoice) {
+switch (serviceChoice) {
 
-    case "movie":
-    console.log("You chose the VIP movie service!")
-    movie(serviceData);
-    break;
+  case "movie":
+  console.log("You chose the VIP movie service!")
+  movie(serviceData);
+  break;
 
-    case "music":
-    console.log("You chose the VIP music service!")
-    spotifyNow(serviceData);
-    break;
+  case "music":
+  console.log("You chose the VIP music service!")
+  spotifyNow(serviceData);
+  break;
 
-    case "massage":
-    console.log("You chose the VIP massage service!")    
+  case "massage":
+  console.log("You chose the VIP massage service!")    
 //    massage(serviceData);
-    massage();
-    break;
-  }
+massage();
+break;
+}
 }
 
 
@@ -176,16 +176,16 @@ function masterSwitch(serviceChoice, serviceData){
 function movie(serviceData){
 //  console.log("at the movie function now")
 
-  var serviceDataArray = [];
+var serviceDataArray = [];
 //  console.log(serviceDataArray);
-  serviceDataArray.push('nodeJsResevred1');
-  serviceDataArray.push('nodeJsResevred1');
+serviceDataArray.push('nodeJsResevred0');
+serviceDataArray.push('nodeJsResevred1');
 //  console.log(serviceDataArray);
 //  Array.isArray(serviceDataArray);
 
 //  console.log("passed the serviceDataArray type test.");
 
-  var str = serviceData.trim();
+var str = serviceData.trim();
 //var str = "'"+serviceData.trim()+"'";
 var cServiceData = str.replace(" ", ",");
 //var cServiceData = str.replace(" ", "', '");
@@ -262,7 +262,11 @@ request(queryUrl, function(error, response, body) {
     console.log("Actors & Actresses: " + JSON.parse(body).Actors);
     console.log("Rotten Tomatoes User Rating: " + JSON.parse(body).tomatoUserRating);
    // console.log("Rotten Tomatoes URL: " + JSON.parse(body).tomatoURL);
- }
+   fs.appendFile('random.txt', " \n Title: " + JSON.parse(body).Title + " \n Release Year: " + JSON.parse(body).Year + " \n IMDB Rating: " + JSON.parse(body).imdbRating +  "\nCountry: " + JSON.parse(body).Country +
+        " \n Language: " + JSON.parse(body).Language + " \n Plot: " + JSON.parse(body).Plot + " \n Actors: " + JSON.parse(body).Actors + "\n******************************************************************************");
+    } else {
+      console.log('  :o  :(  ');
+    }
 });
 
 }
@@ -278,34 +282,40 @@ request(queryUrl, function(error, response, body) {
 
 function spotifyNow(serviceData){
 
-    spotify.search({type: 'track', query: serviceData}, function(err, data) {
+  spotify.search({type: 'track', query: serviceData}, function(err, data) {
 
-//add array filter via .filter to only select where song name is === serviceData 
+//add array filter via .filter() to only select where song name is === serviceData 
 
-          if(serviceData){
-            var data = data.tracks.items;
-            for(var i =0; i < data.length; i++){
-                console.log("Song name: " + data[i].name);
-                console.log("Album link: " + data[i].album.href); 
-                console.log("Album name: " + data[i].album.name); 
-                console.log("A Preview Link of the Song: " + data[i].preview_url); 
-            
-                for(var j =0; j < data[i].artists.length; j++){
-                    console.log("Artist's Name: " + data[i].artists[j].name); 
-                }
-            }
-        }else{
-            spotify.search({ type: 'track', query: "The Sign"}, function(err, data){
-                var data = data.tracks.items;
-                console.log("Song ame: " + data[0].name); 
-                console.log("Album link: " + data[0].album.href); 
-                console.log("Album name: " + data[0].album.name); 
-                console.log("A Preview Link of the Song: " + data[0].preview_url); 
-                console.log("Artist's Name: " + data[0].artists[0].name); 
-            });
-        }
-    });
+if(serviceData){
+  var data = data.tracks.items;
+
+  for(var i =0; i < data.length; i++){
+    console.log("Song name: " + data[i].name);
+    console.log("Album link: " + data[i].album.href); 
+    console.log("Album name: " + data[i].album.name); 
+    console.log("A Preview Link of the Song: " + data[i].preview_url); 
+    fs.appendFile('random.txt', "\r Song name: " + data[i].name + "\n" +
+      " Album link: " + data[i].album.href + "\n" +
+      " Album name: " + data[i].album.name + "\n" +
+      " A Preview Link of the Song: " + data[i].preview_url + "\n" +      
+      "\n  *******************************************************\r ");
+
+    for(var j =0; j < data[i].artists.length; j++){
+      console.log("Artist's Name: " + data[i].artists[j].name); 
+    }
   }
+}else{
+  spotify.search({ type: 'track', query: "The Sign"}, function(err, data){
+    var data = data.tracks.items;
+    console.log("Song ame: " + data[0].name); 
+    console.log("Album link: " + data[0].album.href); 
+    console.log("Album name: " + data[0].album.name); 
+    console.log("A Preview Link of the Song: " + data[0].preview_url); 
+    console.log("Artist's Name: " + data[0].artists[0].name); 
+  });
+}
+});
+}
 
 //////////////////////////////////////////
 //END SPOTIFY CODE BLOCK////////////////////

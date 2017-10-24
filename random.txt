@@ -1,100 +1,498 @@
-Artist: Rihanna
-Song Name: Umbrella
-Preview Link: https://open.spotify.com/track/49FYlytm3dAAraYgpoJZux
-Album: Good Girl Gone Bad: Reloaded
-====================================================
-Artist: Rihanna
-Song Name: Umbrella
-Preview Link: https://open.spotify.com/track/49FYlytm3dAAraYgpoJZux
-Album: Good Girl Gone Bad: Reloaded
-====================================================
-Artist: Rihanna
-Song Name: Umbrella
-Preview Link: https://open.spotify.com/track/49FYlytm3dAAraYgpoJZux
-Album: Good Girl Gone Bad: Reloaded
-====================================================
-Artist: Rihanna
-Song Name: Umbrella
-Preview Link: https://open.spotify.com/track/49FYlytm3dAAraYgpoJZux
-Album: Good Girl Gone Bad: Reloaded
-====================================================
-Artist: Rihanna
-Song Name: Umbrella
-Preview Link: https://open.spotify.com/track/49FYlytm3dAAraYgpoJZux
-Album: Good Girl Gone Bad: Reloaded
-====================================================
-Artist: Rihanna
-Song Name: Umbrella
-Preview Link: https://open.spotify.com/track/49FYlytm3dAAraYgpoJZux
-Album: Good Girl Gone Bad: Reloaded
-====================================================
-Artist: Rihanna
-Song Name: Umbrella
-Preview Link: https://open.spotify.com/track/49FYlytm3dAAraYgpoJZux
-Album: Good Girl Gone Bad: Reloaded
-====================================================
-Artist: Rihanna
-Song Name: Umbrella
-Preview Link: https://open.spotify.com/track/49FYlytm3dAAraYgpoJZux
-Album: Good Girl Gone Bad: Reloaded
-====================================================
-Artist: Rihanna
-Song Name: Umbrella
-Preview Link: https://open.spotify.com/track/49FYlytm3dAAraYgpoJZux
-Album: Good Girl Gone Bad: Reloaded
-====================================================
-Artist: Rihanna
-Song Name: Umbrella
-Preview Link: https://open.spotify.com/track/49FYlytm3dAAraYgpoJZux
-Album: Good Girl Gone Bad: Reloaded
-====================================================
-Artist: Rihanna
-Song Name: Umbrella
-Preview Link: https://open.spotify.com/track/49FYlytm3dAAraYgpoJZux
-Album: Good Girl Gone Bad: Reloaded
-====================================================
-Artist: Rihanna
-Song Name: Umbrella
-Preview Link: https://open.spotify.com/track/49FYlytm3dAAraYgpoJZux
-Album: Good Girl Gone Bad: Reloaded
-====================================================
-Artist: Rihanna
-Song Name: Umbrella
-Preview Link: https://open.spotify.com/track/49FYlytm3dAAraYgpoJZux
-Album: Good Girl Gone Bad: Reloaded
-====================================================
-Artist: Rihanna
-Song Name: Umbrella
-Preview Link: https://open.spotify.com/track/49FYlytm3dAAraYgpoJZux
-Album: Good Girl Gone Bad: Reloaded
-====================================================
-Artist: Rihanna
-Song Name: Umbrella
-Preview Link: https://open.spotify.com/track/49FYlytm3dAAraYgpoJZux
-Album: Good Girl Gone Bad: Reloaded
-====================================================
-Artist: Rihanna
-Song Name: Umbrella
-Preview Link: https://open.spotify.com/track/49FYlytm3dAAraYgpoJZux
-Album: Good Girl Gone Bad: Reloaded
-====================================================
-Artist: Rihanna
-Song Name: Umbrella
-Preview Link: https://open.spotify.com/track/49FYlytm3dAAraYgpoJZux
-Album: Good Girl Gone Bad: Reloaded
-====================================================
-Artist: Rihanna
-Song Name: Umbrella
-Preview Link: https://open.spotify.com/track/49FYlytm3dAAraYgpoJZux
-Album: Good Girl Gone Bad: Reloaded
-====================================================
-Artist: Rihanna
-Song Name: Umbrella
-Preview Link: https://open.spotify.com/track/49FYlytm3dAAraYgpoJZux
-Album: Good Girl Gone Bad: Reloaded
-====================================================
-Artist: Rihanna
-Song Name: Umbrella
-Preview Link: https://open.spotify.com/track/49FYlytm3dAAraYgpoJZux
-Album: Good Girl Gone Bad: Reloaded
-====================================================
+
+Title: Terminator
+Release Year: 2001
+IMDB Rating: 4.8
+Rotten Tomatoes Rating: undefined
+Country: USA
+Language: English
+Plot: N/A
+Actors: Joshua Miller
+====================================================== 
+ Title: Blade Runner 
+ Release Year: 1982 
+ IMDB Rating: 8.2
+Country: USA, Hong Kong, UK 
+ Language: English, German, Cantonese, Japanese, Hungarian, Arabic 
+ Plot: A blade runner must pursue and try to terminate four replicants who stole a ship in space and have returned to Earth to find their creator. 
+ Actors: Harrison Ford, Rutger Hauer, Sean Young, Edward James Olmos
+****************************************************************************** Song name: La Bicicleta
+ Album link: https://api.spotify.com/v1/albums/0RYhKF9kDheHRaPYVYo2r6
+ Album name: La Bicicleta
+ A Preview Link of the Song: https://p.scdn.co/mp3-preview/5225541bbd6172b4259bf190fa22887ad5575270?cid=05c7028d4f404de389b46844121821ab
+ *******************************************************
+  Song name: La Bicicleta
+ Album link: https://api.spotify.com/v1/albums/6bUxh58rYTL67FS8dyTKMN
+ Album name: El Dorado
+ A Preview Link of the Song: https://p.scdn.co/mp3-preview/7a62b4f29f21d1b43cba4cbc39bd041ea2d27ac6?cid=05c7028d4f404de389b46844121821ab
+ *******************************************************
+  Song name: La Bicicleta - Remix
+ Album link: https://api.spotify.com/v1/albums/16GOQxU7ShCeAeq8e5PplO
+ Album name: La Bicicleta (Remix)
+ A Preview Link of the Song: https://p.scdn.co/mp3-preview/f4c45c14273425ee1ea71f9ad1bc9bb0c553d4a4?cid=05c7028d4f404de389b46844121821ab
+ *******************************************************
+  Song name: La Bicicleta - Versión Pop
+ Album link: https://api.spotify.com/v1/albums/1CwtU8CnhmEXnaIKSgOQY3
+ Album name: La Bicicleta (Versión Pop)
+ A Preview Link of the Song: https://p.scdn.co/mp3-preview/139da12c00c55543b3a5c8d4927db8d7cc4412e0?cid=05c7028d4f404de389b46844121821ab
+ *******************************************************
+  Song name: El Niagara en Bicicleta - Live
+ Album link: https://api.spotify.com/v1/albums/43lcnoRo7YBAYHEztiDRrG
+ Album name: Asondeguerra Tour
+ A Preview Link of the Song: null
+ *******************************************************
+  Song name: La Bicicleta - Versión Vallenato
+ Album link: https://api.spotify.com/v1/albums/5igDVz8nB9U12eeQfBhqBq
+ Album name: La Bicicleta (Versión Vallenato)
+ A Preview Link of the Song: https://p.scdn.co/mp3-preview/384fe92196d3761d4077e9c5f0a1f518aecc2c5e?cid=05c7028d4f404de389b46844121821ab
+ *******************************************************
+  Song name: La Bicicleta
+ Album link: https://api.spotify.com/v1/albums/2MTA3VJ8d3FJRKYJ7wNVbu
+ Album name: La Bicicleta
+ A Preview Link of the Song: null
+ *******************************************************
+  Song name: La Bicicleta - Remix
+ Album link: https://api.spotify.com/v1/albums/5gZsut6OFetJpLMhY16Doh
+ Album name: La Bicicleta (Remix)
+ A Preview Link of the Song: null
+ *******************************************************
+  Song name: A la Luna en Bicicleta
+ Album link: https://api.spotify.com/v1/albums/1QgNL3fU5EIV7MNjutHSlU
+ Album name: Viaje
+ A Preview Link of the Song: https://p.scdn.co/mp3-preview/c4fc3e675e2a74ce444d7bcba9477242c0f0e851?cid=05c7028d4f404de389b46844121821ab
+ *******************************************************
+  Song name: El Niagara En Bicicleta
+ Album link: https://api.spotify.com/v1/albums/7GI7J6xlCNvkktVNFmrCku
+ Album name: Merengue Party
+ A Preview Link of the Song: https://p.scdn.co/mp3-preview/148cc9db7160719af3b587c581e3665f350b34a0?cid=05c7028d4f404de389b46844121821ab
+ *******************************************************
+  Song name: Bicicleta
+ Album link: https://api.spotify.com/v1/albums/6D3n83RW6quQ0J0PHZ4fPU
+ Album name: CARACOLES
+ A Preview Link of the Song: https://p.scdn.co/mp3-preview/ed3eaf00245342d3e6382227a4e9f7e9039524d5?cid=05c7028d4f404de389b46844121821ab
+ *******************************************************
+  Song name: La bicicleta
+ Album link: https://api.spotify.com/v1/albums/4wwDCg1A5ufLNYgGlaRfZc
+ Album name: Síntesis
+ A Preview Link of the Song: https://p.scdn.co/mp3-preview/89ab6d88ced6e0dc301291d04b9741b29a329c05?cid=05c7028d4f404de389b46844121821ab
+ *******************************************************
+  Song name: La Bicicleta
+ Album link: https://api.spotify.com/v1/albums/04hq7zcDuLr17L4qfHYA1D
+ Album name: La Bicicleta
+ A Preview Link of the Song: https://p.scdn.co/mp3-preview/38fad7ea645511c074e947eccb0382b978cd9930?cid=05c7028d4f404de389b46844121821ab
+ *******************************************************
+  Song name: Corrido De La Bicicleta
+ Album link: https://api.spotify.com/v1/albums/6pkj9HgAzcH1IpJH1MXVKD
+ Album name: Ya Lo Supere
+ A Preview Link of the Song: https://p.scdn.co/mp3-preview/5a8a12d0999511c3a754f50732dfd0df557bfe4d?cid=05c7028d4f404de389b46844121821ab
+ *******************************************************
+  Song name: La Bicicleta - La Banda Performance
+ Album link: https://api.spotify.com/v1/albums/7Bv1AIRmHtgMnTrAGylyQA
+ Album name: La Bicicleta (La Banda Performance)
+ A Preview Link of the Song: https://p.scdn.co/mp3-preview/4063e45f9ad83215db29fb01744af7d700bebae4?cid=05c7028d4f404de389b46844121821ab
+ *******************************************************
+  Song name: La Bicicleta
+ Album link: https://api.spotify.com/v1/albums/4TvbV2myTXA3X1TM98812n
+ Album name: Chilenas Para Mi Gente
+ A Preview Link of the Song: https://p.scdn.co/mp3-preview/fd83c52e0754c9112ca87d9c184f294fd2ee7786?cid=05c7028d4f404de389b46844121821ab
+ *******************************************************
+  Song name: El Niagara en Bicicleta
+ Album link: https://api.spotify.com/v1/albums/71171uuEk0HuAHxjVK9QEC
+ Album name: Merengue Latino 100 Hits 2
+ A Preview Link of the Song: https://p.scdn.co/mp3-preview/148cc9db7160719af3b587c581e3665f350b34a0?cid=05c7028d4f404de389b46844121821ab
+ *******************************************************
+  Song name: Lima
+ Album link: https://api.spotify.com/v1/albums/5VBMz6Px7UopHmWFmBOBSr
+ Album name: Lima
+ A Preview Link of the Song: https://p.scdn.co/mp3-preview/db313dc51c581ac417e213cc2af8c2124b9f4561?cid=05c7028d4f404de389b46844121821ab
+ *******************************************************
+  Song name: La bicicleta
+ Album link: https://api.spotify.com/v1/albums/2g9W46slg1dEOyBuLXoIdm
+ Album name: Esencia indestructible
+ A Preview Link of the Song: https://p.scdn.co/mp3-preview/0ed7231d9c69b8513c08a970afd6f7335dcaa1d4?cid=05c7028d4f404de389b46844121821ab
+ *******************************************************
+  Song name: La Bicicleta
+ Album link: https://api.spotify.com/v1/albums/4b1StKTgY6i9OnMdU8hV4N
+ Album name: BAILA REGGAETON 2017 (Lo Mejor Del Reggaeton - Los Exitos 2017)
+ A Preview Link of the Song: https://p.scdn.co/mp3-preview/62cb8ffe069b12bba07a9e50c72672d7c5bd506e?cid=05c7028d4f404de389b46844121821ab
+ *******************************************************
+  
+ Title: Blade Runner 
+ Release Year: 1982 
+ IMDB Rating: 8.2
+Country: USA, Hong Kong, UK 
+ Language: English, German, Cantonese, Japanese, Hungarian, Arabic 
+ Plot: A blade runner must pursue and try to terminate four replicants who stole a ship in space and have returned to Earth to find their creator. 
+ Actors: Harrison Ford, Rutger Hauer, Sean Young, Edward James Olmos
+******************************************************************************
+ Song name: La Bicicleta
+ Album link: https://api.spotify.com/v1/albums/0RYhKF9kDheHRaPYVYo2r6
+ Album name: La Bicicleta
+ A Preview Link of the Song: https://p.scdn.co/mp3-preview/5225541bbd6172b4259bf190fa22887ad5575270?cid=05c7028d4f404de389b46844121821ab
+
+  *******************************************************
+ 
+ Song name: La Bicicleta
+ Album link: https://api.spotify.com/v1/albums/6bUxh58rYTL67FS8dyTKMN
+ Album name: El Dorado
+ A Preview Link of the Song: https://p.scdn.co/mp3-preview/7a62b4f29f21d1b43cba4cbc39bd041ea2d27ac6?cid=05c7028d4f404de389b46844121821ab
+
+  *******************************************************
+ 
+ Song name: La Bicicleta - Remix
+ Album link: https://api.spotify.com/v1/albums/16GOQxU7ShCeAeq8e5PplO
+ Album name: La Bicicleta (Remix)
+ A Preview Link of the Song: https://p.scdn.co/mp3-preview/f4c45c14273425ee1ea71f9ad1bc9bb0c553d4a4?cid=05c7028d4f404de389b46844121821ab
+
+  *******************************************************
+ 
+ Song name: La Bicicleta - Versión Vallenato
+ Album link: https://api.spotify.com/v1/albums/5igDVz8nB9U12eeQfBhqBq
+ Album name: La Bicicleta (Versión Vallenato)
+ A Preview Link of the Song: https://p.scdn.co/mp3-preview/384fe92196d3761d4077e9c5f0a1f518aecc2c5e?cid=05c7028d4f404de389b46844121821ab
+
+  *******************************************************
+ 
+ Song name: La Bicicleta - Remix
+ Album link: https://api.spotify.com/v1/albums/5gZsut6OFetJpLMhY16Doh
+ Album name: La Bicicleta (Remix)
+ A Preview Link of the Song: null
+
+  *******************************************************
+ 
+ Song name: La Bicicleta - Versión Pop
+ Album link: https://api.spotify.com/v1/albums/1CwtU8CnhmEXnaIKSgOQY3
+ Album name: La Bicicleta (Versión Pop)
+ A Preview Link of the Song: https://p.scdn.co/mp3-preview/139da12c00c55543b3a5c8d4927db8d7cc4412e0?cid=05c7028d4f404de389b46844121821ab
+
+  *******************************************************
+ 
+ Song name: A la Luna en Bicicleta
+ Album link: https://api.spotify.com/v1/albums/1QgNL3fU5EIV7MNjutHSlU
+ Album name: Viaje
+ A Preview Link of the Song: https://p.scdn.co/mp3-preview/c4fc3e675e2a74ce444d7bcba9477242c0f0e851?cid=05c7028d4f404de389b46844121821ab
+
+  *******************************************************
+ 
+ Song name: Corrido De La Bicicleta
+ Album link: https://api.spotify.com/v1/albums/6pkj9HgAzcH1IpJH1MXVKD
+ Album name: Ya Lo Supere
+ A Preview Link of the Song: https://p.scdn.co/mp3-preview/5a8a12d0999511c3a754f50732dfd0df557bfe4d?cid=05c7028d4f404de389b46844121821ab
+
+  *******************************************************
+ 
+ Song name: La bicicleta
+ Album link: https://api.spotify.com/v1/albums/4wwDCg1A5ufLNYgGlaRfZc
+ Album name: Síntesis
+ A Preview Link of the Song: https://p.scdn.co/mp3-preview/89ab6d88ced6e0dc301291d04b9741b29a329c05?cid=05c7028d4f404de389b46844121821ab
+
+  *******************************************************
+ 
+ Song name: La Bicicleta
+ Album link: https://api.spotify.com/v1/albums/04hq7zcDuLr17L4qfHYA1D
+ Album name: La Bicicleta
+ A Preview Link of the Song: https://p.scdn.co/mp3-preview/38fad7ea645511c074e947eccb0382b978cd9930?cid=05c7028d4f404de389b46844121821ab
+
+  *******************************************************
+ 
+ Song name: La Bicicleta
+ Album link: https://api.spotify.com/v1/albums/4TvbV2myTXA3X1TM98812n
+ Album name: Chilenas Para Mi Gente
+ A Preview Link of the Song: https://p.scdn.co/mp3-preview/fd83c52e0754c9112ca87d9c184f294fd2ee7786?cid=05c7028d4f404de389b46844121821ab
+
+  *******************************************************
+ 
+ Song name: La Bicicleta
+ Album link: https://api.spotify.com/v1/albums/2MTA3VJ8d3FJRKYJ7wNVbu
+ Album name: La Bicicleta
+ A Preview Link of the Song: null
+
+  *******************************************************
+ 
+ Song name: La Bicicleta
+ Album link: https://api.spotify.com/v1/albums/4b1StKTgY6i9OnMdU8hV4N
+ Album name: BAILA REGGAETON 2017 (Lo Mejor Del Reggaeton - Los Exitos 2017)
+ A Preview Link of the Song: https://p.scdn.co/mp3-preview/62cb8ffe069b12bba07a9e50c72672d7c5bd506e?cid=05c7028d4f404de389b46844121821ab
+
+  *******************************************************
+ 
+ Song name: La bicicleta
+ Album link: https://api.spotify.com/v1/albums/2g9W46slg1dEOyBuLXoIdm
+ Album name: Esencia indestructible
+ A Preview Link of the Song: https://p.scdn.co/mp3-preview/0ed7231d9c69b8513c08a970afd6f7335dcaa1d4?cid=05c7028d4f404de389b46844121821ab
+
+  *******************************************************
+ 
+ Song name: La Bicicleta - La Banda Performance
+ Album link: https://api.spotify.com/v1/albums/7Bv1AIRmHtgMnTrAGylyQA
+ Album name: La Bicicleta (La Banda Performance)
+ A Preview Link of the Song: https://p.scdn.co/mp3-preview/4063e45f9ad83215db29fb01744af7d700bebae4?cid=05c7028d4f404de389b46844121821ab
+
+  *******************************************************
+ 
+ Song name: Lima
+ Album link: https://api.spotify.com/v1/albums/5VBMz6Px7UopHmWFmBOBSr
+ Album name: Lima
+ A Preview Link of the Song: https://p.scdn.co/mp3-preview/db313dc51c581ac417e213cc2af8c2124b9f4561?cid=05c7028d4f404de389b46844121821ab
+
+  *******************************************************
+ 
+ Song name: La bicicleta
+ Album link: https://api.spotify.com/v1/albums/28hREJGGLFK4CZ7QeqxuvI
+ Album name: La Bicicleta
+ A Preview Link of the Song: https://p.scdn.co/mp3-preview/0ed7231d9c69b8513c08a970afd6f7335dcaa1d4?cid=05c7028d4f404de389b46844121821ab
+
+  *******************************************************
+ 
+ Song name: La Bicicleta
+ Album link: https://api.spotify.com/v1/albums/315Sc4GkWSLMQMWt8v64G9
+ Album name: Los Consentidos del Pueblo Vol. 10. Música de Guatemala para los Latinos
+ A Preview Link of the Song: https://p.scdn.co/mp3-preview/48e08628cba6ebdaee9fad6ef76dccf025e39dc2?cid=05c7028d4f404de389b46844121821ab
+
+  *******************************************************
+ 
+ Song name: La Bicicleta
+ Album link: https://api.spotify.com/v1/albums/22aDoyLL28aKpaDr0iPegv
+ Album name: La Bicicleta
+ A Preview Link of the Song: https://p.scdn.co/mp3-preview/711f3ce18251f6d422eb0f3020ace8f43bbf4bb7?cid=05c7028d4f404de389b46844121821ab
+
+  *******************************************************
+ 
+ Song name: La Bicicleta y el Manicero (En Vivo)
+ Album link: https://api.spotify.com/v1/albums/2nZ5JHBt62aiabYfVddoDy
+ Album name: 11 Exitos (En Vivo)
+ A Preview Link of the Song: https://p.scdn.co/mp3-preview/2898dd5e10328a284832a853a1957169dd6c462b?cid=05c7028d4f404de389b46844121821ab
+
+  *******************************************************
+  
+ Title: Terminator 
+ Release Year: 2001 
+ IMDB Rating: 4.8
+Country: USA 
+ Language: English 
+ Plot: N/A 
+ Actors: Joshua Miller
+****************************************************************************** Song name: Rude Boy
+ Album link: https://api.spotify.com/v1/albums/7uGmyYwDFJbSc1xs4hkEs2
+ Album name: Rated R
+ A Preview Link of the Song: null
+
+  *******************************************************  Song name: Rude Boy
+ Album link: https://api.spotify.com/v1/albums/5oMe51UhWt6rsnkAvNRd1A
+ Album name: Rated R
+ A Preview Link of the Song: null
+
+  *******************************************************  Song name: Rude Boy - Chew Fu Vitamin S Fix
+ Album link: https://api.spotify.com/v1/albums/2wi0v7jPzYBCd99GggLtN8
+ Album name: Rated R: Remixed
+ A Preview Link of the Song: null
+
+  *******************************************************  Song name: Rude Boy
+ Album link: https://api.spotify.com/v1/albums/5d1EnTsM3SBkly6fENKprF
+ Album name: Mr Twin Sister
+ A Preview Link of the Song: https://p.scdn.co/mp3-preview/d4a00b4b5d4ff09ea08ebea6153878291b2824bc?cid=05c7028d4f404de389b46844121821ab
+
+  *******************************************************  Song name: Rude Boy Ting
+ Album link: https://api.spotify.com/v1/albums/6GYHLU6fX7EyC073PjYbvR
+ Album name: Rude Boy Ting
+ A Preview Link of the Song: https://p.scdn.co/mp3-preview/3b17da8ecda27cf19823ea809bb991dfa49a6449?cid=05c7028d4f404de389b46844121821ab
+
+  *******************************************************  Song name: Rude Boy
+ Album link: https://api.spotify.com/v1/albums/5tiCR9iGhxWu8R4oqcKDzw
+ Album name: Dub Massive Vol. 1
+ A Preview Link of the Song: https://p.scdn.co/mp3-preview/7e525f791ff0cb901f14095db3460f89fed16cb8?cid=05c7028d4f404de389b46844121821ab
+
+  *******************************************************  Song name: Rude Boy
+ Album link: https://api.spotify.com/v1/albums/31tpPbrHv8IQBvrusxxgsX
+ Album name: Rudeboy
+ A Preview Link of the Song: https://p.scdn.co/mp3-preview/9a3384261289c1b2843592ff70ef480b6b268ab2?cid=05c7028d4f404de389b46844121821ab
+
+  *******************************************************  Song name: Rude Boy
+ Album link: https://api.spotify.com/v1/albums/37De4dxQhuvbnWJKx96qJ0
+ Album name: Diversité
+ A Preview Link of the Song: https://p.scdn.co/mp3-preview/d3557b8a91946d48bab878f43e288e9a25c7381b?cid=05c7028d4f404de389b46844121821ab
+
+  *******************************************************  Song name: Run Away (Thuli Thuli Rude Boy Remix)
+ Album link: https://api.spotify.com/v1/albums/6dYEFUdYXhDPHcokv2B8Ot
+ Album name: Run Away (Thuli Thuli Rude Boy Remix)
+ A Preview Link of the Song: https://p.scdn.co/mp3-preview/9c1cf168d5d5c087cf1b9d6008dffb8214929112?cid=05c7028d4f404de389b46844121821ab
+
+  *******************************************************  Song name: Rude Boy (Skit)
+ Album link: https://api.spotify.com/v1/albums/4k6ci0PJUSV8CeQDTBfm44
+ Album name: Purple Haze
+ A Preview Link of the Song: null
+
+  *******************************************************  Song name: Rude Boy Feat. Omar LinX - Original Mix
+ Album link: https://api.spotify.com/v1/albums/4sPHcNjPXlEzESVYZDa9XS
+ Album name: Rude Boy Feat. Omar LinX
+ A Preview Link of the Song: https://p.scdn.co/mp3-preview/9bfd7e3d1fcabe363540640a2609ef1e4e9f72b1?cid=05c7028d4f404de389b46844121821ab
+
+  *******************************************************  Song name: Rude Boy
+ Album link: https://api.spotify.com/v1/albums/5P9p9c2embCTTe01kBky1H
+ Album name: Rude Boy
+ A Preview Link of the Song: null
+
+  *******************************************************  Song name: Illusion (feat. Nami)
+ Album link: https://api.spotify.com/v1/albums/2Uplnw8yg41YP2pDjDHbUW
+ Album name: Illusion
+ A Preview Link of the Song: https://p.scdn.co/mp3-preview/3c6d8acfe81eb306be1dc54c7ce2f3f909bb5f90?cid=05c7028d4f404de389b46844121821ab
+
+  *******************************************************  Song name: Rude Boy
+ Album link: https://api.spotify.com/v1/albums/6pjPmNU09Lo174bo7fPrmu
+ Album name: Lullaby Renditions of Rihanna
+ A Preview Link of the Song: https://p.scdn.co/mp3-preview/927c3ac8728769a6da0321566980b1586af5d7e5?cid=05c7028d4f404de389b46844121821ab
+
+  *******************************************************  Song name: It Mek
+ Album link: https://api.spotify.com/v1/albums/2mXOEN7s8QhLJUKWOEJFQd
+ Album name: Rude Boy Ska
+ A Preview Link of the Song: https://p.scdn.co/mp3-preview/9fb5096ce5f2b752ced0b3bb6e1af735417544dc?cid=05c7028d4f404de389b46844121821ab
+
+  *******************************************************  Song name: Nincompoop
+ Album link: https://api.spotify.com/v1/albums/2mXOEN7s8QhLJUKWOEJFQd
+ Album name: Rude Boy Ska
+ A Preview Link of the Song: https://p.scdn.co/mp3-preview/9452d08bbc894dade583f2e02116b9d0ac291c50?cid=05c7028d4f404de389b46844121821ab
+
+  *******************************************************  Song name: Rude Boy Dreams
+ Album link: https://api.spotify.com/v1/albums/4ip1GDQYzfwcfSZLLdZr8f
+ Album name: Clash of the Ska Titans/Guns of Navarone
+ A Preview Link of the Song: https://p.scdn.co/mp3-preview/98fd05c11d6e89c66854f150a8e66e6eb97de5af?cid=05c7028d4f404de389b46844121821ab
+
+  *******************************************************  Song name: Rude Boy
+ Album link: https://api.spotify.com/v1/albums/2zEkR9YNfgBGpIzDsvR3Sg
+ Album name: Rude Boy
+ A Preview Link of the Song: https://p.scdn.co/mp3-preview/e72c9d16586d4313e5ed5da69d0c681eb9657c12?cid=05c7028d4f404de389b46844121821ab
+
+  *******************************************************  Song name: Rude Boy Resort
+ Album link: https://api.spotify.com/v1/albums/1YERqaK1CT0QDRL9XZKI8g
+ Album name: Best Of 2010 Mashed
+ A Preview Link of the Song: https://p.scdn.co/mp3-preview/b7dadb8428fa80d678cd3ddd30d34bbf21531d4e?cid=05c7028d4f404de389b46844121821ab
+
+  *******************************************************  Song name: Rude Boy - Dirty
+ Album link: https://api.spotify.com/v1/albums/4Fvk9ulVosZHInk8bW39TA
+ Album name: Rudeboy
+ A Preview Link of the Song: https://p.scdn.co/mp3-preview/f224187591425d2c4bee2eeb8822b532a8a1d651?cid=05c7028d4f404de389b46844121821ab
+
+  *******************************************************  
+ Title: Blade Runner 
+ Release Year: 1982 
+ IMDB Rating: 8.2
+Country: USA, Hong Kong, UK 
+ Language: English, German, Cantonese, Japanese, Hungarian, Arabic 
+ Plot: A blade runner must pursue and try to terminate four replicants who stole a ship in space and have returned to Earth to find their creator. 
+ Actors: Harrison Ford, Rutger Hauer, Sean Young, Edward James Olmos
+****************************************************************************** 
+ Title: Transporter 
+ Release Year: 2013 
+ IMDB Rating: 7.0
+Country: USA 
+ Language: English 
+ Plot: Transporter is a sci-fi psychological thriller about a teenager on a mission to save his girlfriend from his dysfunctional family and their monstrous business. 
+ Actors: Petronia Paley, Ibn Dixon, Taimak, Nelcie Souffrant
+****************************************************************************** 
+ Title: Terminator 
+ Release Year: 2001 
+ IMDB Rating: 4.8
+Country: USA 
+ Language: English 
+ Plot: N/A 
+ Actors: Joshua Miller
+****************************************************************************** Song name: La Bicicleta
+ Album link: https://api.spotify.com/v1/albums/0RYhKF9kDheHRaPYVYo2r6
+ Album name: La Bicicleta
+ A Preview Link of the Song: https://p.scdn.co/mp3-preview/5225541bbd6172b4259bf190fa22887ad5575270?cid=05c7028d4f404de389b46844121821ab
+
+  *******************************************************  Song name: La Bicicleta
+ Album link: https://api.spotify.com/v1/albums/6bUxh58rYTL67FS8dyTKMN
+ Album name: El Dorado
+ A Preview Link of the Song: https://p.scdn.co/mp3-preview/7a62b4f29f21d1b43cba4cbc39bd041ea2d27ac6?cid=05c7028d4f404de389b46844121821ab
+
+  *******************************************************  Song name: La Bicicleta - Versión Pop
+ Album link: https://api.spotify.com/v1/albums/1CwtU8CnhmEXnaIKSgOQY3
+ Album name: La Bicicleta (Versión Pop)
+ A Preview Link of the Song: https://p.scdn.co/mp3-preview/139da12c00c55543b3a5c8d4927db8d7cc4412e0?cid=05c7028d4f404de389b46844121821ab
+
+  *******************************************************  Song name: La Bicicleta - Remix
+ Album link: https://api.spotify.com/v1/albums/16GOQxU7ShCeAeq8e5PplO
+ Album name: La Bicicleta (Remix)
+ A Preview Link of the Song: https://p.scdn.co/mp3-preview/f4c45c14273425ee1ea71f9ad1bc9bb0c553d4a4?cid=05c7028d4f404de389b46844121821ab
+
+  *******************************************************  Song name: La Bicicleta - Versión Vallenato
+ Album link: https://api.spotify.com/v1/albums/5igDVz8nB9U12eeQfBhqBq
+ Album name: La Bicicleta (Versión Vallenato)
+ A Preview Link of the Song: https://p.scdn.co/mp3-preview/384fe92196d3761d4077e9c5f0a1f518aecc2c5e?cid=05c7028d4f404de389b46844121821ab
+
+  *******************************************************  Song name: A la Luna en Bicicleta
+ Album link: https://api.spotify.com/v1/albums/1QgNL3fU5EIV7MNjutHSlU
+ Album name: Viaje
+ A Preview Link of the Song: https://p.scdn.co/mp3-preview/c4fc3e675e2a74ce444d7bcba9477242c0f0e851?cid=05c7028d4f404de389b46844121821ab
+
+  *******************************************************  Song name: La Bicicleta - Remix
+ Album link: https://api.spotify.com/v1/albums/5gZsut6OFetJpLMhY16Doh
+ Album name: La Bicicleta (Remix)
+ A Preview Link of the Song: null
+
+  *******************************************************  Song name: La bicicleta
+ Album link: https://api.spotify.com/v1/albums/4wwDCg1A5ufLNYgGlaRfZc
+ Album name: Síntesis
+ A Preview Link of the Song: https://p.scdn.co/mp3-preview/89ab6d88ced6e0dc301291d04b9741b29a329c05?cid=05c7028d4f404de389b46844121821ab
+
+  *******************************************************  Song name: La Bicicleta
+ Album link: https://api.spotify.com/v1/albums/2MTA3VJ8d3FJRKYJ7wNVbu
+ Album name: La Bicicleta
+ A Preview Link of the Song: null
+
+  *******************************************************  Song name: Corrido De La Bicicleta
+ Album link: https://api.spotify.com/v1/albums/6pkj9HgAzcH1IpJH1MXVKD
+ Album name: Ya Lo Supere
+ A Preview Link of the Song: https://p.scdn.co/mp3-preview/5a8a12d0999511c3a754f50732dfd0df557bfe4d?cid=05c7028d4f404de389b46844121821ab
+
+  *******************************************************  Song name: La Bicicleta
+ Album link: https://api.spotify.com/v1/albums/04hq7zcDuLr17L4qfHYA1D
+ Album name: La Bicicleta
+ A Preview Link of the Song: https://p.scdn.co/mp3-preview/38fad7ea645511c074e947eccb0382b978cd9930?cid=05c7028d4f404de389b46844121821ab
+
+  *******************************************************  Song name: La Bicicleta
+ Album link: https://api.spotify.com/v1/albums/4TvbV2myTXA3X1TM98812n
+ Album name: Chilenas Para Mi Gente
+ A Preview Link of the Song: https://p.scdn.co/mp3-preview/fd83c52e0754c9112ca87d9c184f294fd2ee7786?cid=05c7028d4f404de389b46844121821ab
+
+  *******************************************************  Song name: La Bicicleta - La Banda Performance
+ Album link: https://api.spotify.com/v1/albums/7Bv1AIRmHtgMnTrAGylyQA
+ Album name: La Bicicleta (La Banda Performance)
+ A Preview Link of the Song: https://p.scdn.co/mp3-preview/4063e45f9ad83215db29fb01744af7d700bebae4?cid=05c7028d4f404de389b46844121821ab
+
+  *******************************************************  Song name: La Bicicleta
+ Album link: https://api.spotify.com/v1/albums/4b1StKTgY6i9OnMdU8hV4N
+ Album name: BAILA REGGAETON 2017 (Lo Mejor Del Reggaeton - Los Exitos 2017)
+ A Preview Link of the Song: https://p.scdn.co/mp3-preview/62cb8ffe069b12bba07a9e50c72672d7c5bd506e?cid=05c7028d4f404de389b46844121821ab
+
+  *******************************************************  Song name: Lima
+ Album link: https://api.spotify.com/v1/albums/5VBMz6Px7UopHmWFmBOBSr
+ Album name: Lima
+ A Preview Link of the Song: https://p.scdn.co/mp3-preview/db313dc51c581ac417e213cc2af8c2124b9f4561?cid=05c7028d4f404de389b46844121821ab
+
+  *******************************************************  Song name: La bicicleta
+ Album link: https://api.spotify.com/v1/albums/2g9W46slg1dEOyBuLXoIdm
+ Album name: Esencia indestructible
+ A Preview Link of the Song: https://p.scdn.co/mp3-preview/0ed7231d9c69b8513c08a970afd6f7335dcaa1d4?cid=05c7028d4f404de389b46844121821ab
+
+  *******************************************************  Song name: La Bicicleta
+ Album link: https://api.spotify.com/v1/albums/22aDoyLL28aKpaDr0iPegv
+ Album name: La Bicicleta
+ A Preview Link of the Song: https://p.scdn.co/mp3-preview/711f3ce18251f6d422eb0f3020ace8f43bbf4bb7?cid=05c7028d4f404de389b46844121821ab
+
+  *******************************************************  Song name: La Bicicleta y el Manicero (En Vivo)
+ Album link: https://api.spotify.com/v1/albums/2nZ5JHBt62aiabYfVddoDy
+ Album name: 11 Exitos (En Vivo)
+ A Preview Link of the Song: https://p.scdn.co/mp3-preview/2898dd5e10328a284832a853a1957169dd6c462b?cid=05c7028d4f404de389b46844121821ab
+
+  *******************************************************  Song name: La bicicleta
+ Album link: https://api.spotify.com/v1/albums/28hREJGGLFK4CZ7QeqxuvI
+ Album name: La Bicicleta
+ A Preview Link of the Song: https://p.scdn.co/mp3-preview/0ed7231d9c69b8513c08a970afd6f7335dcaa1d4?cid=05c7028d4f404de389b46844121821ab
+
+  *******************************************************  Song name: La Bicicleta
+ Album link: https://api.spotify.com/v1/albums/315Sc4GkWSLMQMWt8v64G9
+ Album name: Los Consentidos del Pueblo Vol. 10. Música de Guatemala para los Latinos
+ A Preview Link of the Song: https://p.scdn.co/mp3-preview/48e08628cba6ebdaee9fad6ef76dccf025e39dc2?cid=05c7028d4f404de389b46844121821ab
+
+  ******************************************************* 
