@@ -1,18 +1,18 @@
-// Load the NPM Package inquirer
-var inquirer = require("inquirer");
-//******************
+// Load the NPM Packages
 
-//Store dependencies in global variables
-
-var keys = require("./keys.js"); 
 var spotify = require("spotify");
-
+var Spotify = require("node-spotify-api");
 var inquirer = require("inquirer");
 var request = require("request");
 var fs = require("fs");
 
+//Store dependencies in global variables
 
+var keys = require("./keys.js"); 
+var spotify = new Spotify(keys.spotifyKeys);
 
+//var inquirer = require("inquirer");
+//******************
 //******************
 
 
@@ -44,7 +44,7 @@ inquirer
     {
       type: "list",
       message: "Which service are you looking to enjoy?",
-      choices: ["movie", "massage", "music"],
+      choices: ["movie", "music", "massage"],
       name: "serviceChoice"
     },
     // Here we ask the user to confirm.
@@ -58,18 +58,18 @@ inquirer
     },
     {
       type: "input",
-      message: "Ahh, oui oui, a massage?  What city are you in now? ",
-      name: "massageLocation",
+      message: "La-La-La-La-La...What song?",
+      name: "songTitle",
       when: function(answers){
-        return answers.serviceChoice === "massage";
+        return answers.serviceChoice === "music";
       }
     },
     {
       type: "input",
-      message: "La-La-La-La-La...(hit return)",
-      name: "musicService",
+      message: "Ahh, oui oui, a massage?  What city are you in now? ",
+      name: "massageLocation",
       when: function(answers){
-        return answers.serviceChoice === "music";
+        return answers.serviceChoice === "massage";
       }
     },
     // Here we ask the user to confirm.
@@ -88,24 +88,24 @@ inquirer
       serviceChoice = inquirerResponse.serviceChoice;
       serviceData = inquirerResponse.movieTitle;
     }
-    else if (inquirerResponse.serviceChoice==='massage') {
-      service = inquirerResponse.serviceChoice;
-      serviceData = inquirerResponse.massageLocation;
-    }
     else if (inquirerResponse.serviceChoice==='music') {
       serviceChoice = inquirerResponse.serviceChoice;
-      serviceData = "music keys";
+      serviceData = inquirerResponse.songTitle;
+    }
+    else if (inquirerResponse.serviceChoice==='massage') {
+      serviceChoice = inquirerResponse.serviceChoice;
+      serviceData = inquirerResponse.massageLocation;
     }
 
-    var serviceChoice = inquirerResponse.serviceChoice;
-    var serviceData = inquirerResponse.movieTitle;
+   // var serviceChoice = inquirerResponse.serviceChoice;
+   // var serviceData = inquirerResponse.movieTitle;
     console.log("\nWelcome " + inquirerResponse.username);
     console.log();
     console.log("Your VIP " + inquirerResponse.serviceChoice + " service will be ready for you in a jiffy!\n");
     console.log();
-    console.log("Spanish: uno segundo mas por favor!");
+    console.log("Spanish: un segundo mas por favor!");
     console.log();
-    console.log("Japanese: ato ichi byou dake no de, mo sukoshi omachi kudasai!");
+    console.log("Japanese: mo sukoshi omachi kudasai!");
     console.log();
     console.log(" m(_ _)m ");
     console.log();
@@ -140,9 +140,9 @@ function B1(paramA, paramB) {
 //START SWITCH CODE BLOCK////////////////////
 //////////////////////////////////////////
 function masterSwitch(serviceChoice, serviceData){
-  console.log("masterSwitch() called");
-  console.log("In masterSwitch() serviceChoice: " + serviceChoice);
-  console.log("In masterSwitch() serviceData: " + serviceData);
+//  console.log("masterSwitch() called");
+//  console.log("In masterSwitch() serviceChoice: " + serviceChoice);
+//  console.log("In masterSwitch() serviceData: " + serviceData);
   switch (serviceChoice) {
 
     case "movie":
@@ -150,15 +150,15 @@ function masterSwitch(serviceChoice, serviceData){
     movie(serviceData);
     break;
 
+    case "music":
+    console.log("You chose the VIP music service!")
+    spotifyNow(serviceData);
+    break;
+
     case "massage":
     console.log("You chose the VIP massage service!")    
 //    massage(serviceData);
     massage();
-    break;
-
-    case "music":
-    console.log("You chose the VIP music service!")
-    spotifyNow(serviceData);
     break;
   }
 }
@@ -174,27 +174,27 @@ function masterSwitch(serviceChoice, serviceData){
 //////////////////////////////////////////
 
 function movie(serviceData){
-  console.log("at the movie function now")
+//  console.log("at the movie function now")
 
   var serviceDataArray = [];
-  console.log(serviceDataArray);
+//  console.log(serviceDataArray);
   serviceDataArray.push('nodeJsResevred1');
   serviceDataArray.push('nodeJsResevred1');
-  console.log(serviceDataArray);
-  Array.isArray(serviceDataArray);
+//  console.log(serviceDataArray);
+//  Array.isArray(serviceDataArray);
 
-  console.log("passed the serviceDataArray type test.");
+//  console.log("passed the serviceDataArray type test.");
 
   var str = serviceData.trim();
 //var str = "'"+serviceData.trim()+"'";
 var cServiceData = str.replace(" ", ",");
 //var cServiceData = str.replace(" ", "', '");
-console.log("cServiceData: " + cServiceData + typeof(cServiceData));
+//console.log("cServiceData: " + cServiceData + typeof(cServiceData));
 console.log();
 serviceDataArray.push(cServiceData);
-Array.isArray(serviceDataArray);
+//Array.isArray(serviceDataArray);
 console.log();
-console.log("serviceDataArray[1]: " + serviceDataArray[1]);
+//console.log("serviceDataArray[1]: " + serviceDataArray[1]);
 
 
 if(serviceDataArray === undefined){
@@ -277,8 +277,34 @@ request(queryUrl, function(error, response, body) {
 //////////////////////////////////////////
 
 function spotifyNow(serviceData){
- 
 
+    spotify.search({type: 'track', query: serviceData}, function(err, data) {
+
+//add array filter via .filter to only select where song name is === serviceData 
+
+          if(serviceData){
+            var data = data.tracks.items;
+            for(var i =0; i < data.length; i++){
+                console.log("Song name: " + data[i].name);
+                console.log("Album link: " + data[i].album.href); 
+                console.log("Album name: " + data[i].album.name); 
+                console.log("A Preview Link of the Song: " + data[i].preview_url); 
+            
+                for(var j =0; j < data[i].artists.length; j++){
+                    console.log("Artist's Name: " + data[i].artists[j].name); 
+                }
+            }
+        }else{
+            spotify.search({ type: 'track', query: "The Sign"}, function(err, data){
+                var data = data.tracks.items;
+                console.log("Song ame: " + data[0].name); 
+                console.log("Album link: " + data[0].album.href); 
+                console.log("Album name: " + data[0].album.name); 
+                console.log("A Preview Link of the Song: " + data[0].preview_url); 
+                console.log("Artist's Name: " + data[0].artists[0].name); 
+            });
+        }
+    });
   }
 
 //////////////////////////////////////////
